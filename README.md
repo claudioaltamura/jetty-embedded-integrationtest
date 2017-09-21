@@ -11,3 +11,7 @@ Quick Start
 Open your web browser to
 
 	http://localhost:8080/test/helloworld
+
+Integration test
+----------------
+check out HelloWorldServletIntegrationTest.
