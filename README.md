@@ -1,5 +1,5 @@
 jetty-embedded-integrationtest
-=====================================================
+==============================
 
 Example shows how to write servlet integration tests with an embedded jetty.
 
