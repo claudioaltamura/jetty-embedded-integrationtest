@@ -1,3 +1,13 @@
-./gradlew appRun
+jetty-embedded-integrationtest
+=====================================================
 
-http://localhost:8080/test/helloworld
+Example shows how to write servlet integration tests with an embedded jetty.
+
+Quick Start
+-----------
+
+	./gradlew appRun
+
+Open your web browser to
+
+	http://localhost:8080/test/helloworld
