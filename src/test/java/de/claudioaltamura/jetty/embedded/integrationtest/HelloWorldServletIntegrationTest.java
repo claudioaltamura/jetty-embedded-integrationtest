@@ -13,7 +13,6 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
-import org.eclipse.jetty.servlet.ServletHolder;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -27,8 +26,7 @@ public class HelloWorldServletIntegrationTest {
 		server = new Server(8080);
 		ServletContextHandler context = new ServletContextHandler();
 		context.setContextPath("/test");
-		ServletHolder asyncHolder = context.addServlet(HelloWorldServlet.class, "/helloworld");
-		asyncHolder.setAsyncSupported(true);
+		context.addServlet(HelloWorldServlet.class, "/helloworld");
 		server.setHandler(context);
 		server.start();
 	}

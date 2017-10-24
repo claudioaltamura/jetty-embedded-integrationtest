@@ -14,4 +14,4 @@ Open your web browser to
 
 Integration test
 ----------------
-check out HelloWorldServletIntegrationTest.
+check out HelloWorldServletIntegrationTest.java
