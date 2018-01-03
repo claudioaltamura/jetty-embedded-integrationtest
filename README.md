@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/claudioaltamura/jetty-embedded-integrationtest.svg?branch=master)](https://travis-ci.org/claudioaltamura/jetty-embedded-integrationtest)
+
 jetty-embedded-integrationtest
 ==============================
 
